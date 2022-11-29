@@ -1,0 +1,28 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3;
+    margin: auto;
+    width: auto;
+    height: 600px;
+}
+
+.conteiner-menu {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.conteiner-game {
+    display: none;
+}
+
+body {
+    margin: 50px;
+}

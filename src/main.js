@@ -1,0 +1,34 @@
+var folhaDesenho = document.getElementById('folha');
+var areaDesenho = folhaDesenho.getContext('2d');
+
+var larguraCampo = 600;
+var alturaCampo = 500;
+var larguraLinha = 5;
+var larguraBola = 5;
+var alturaRaquete = 50;
+
+areaDesenho.fillStyle = '#286047';
+areaDesenho.fillRect(0, 0, larguraCampo, 500);
+
+areaDesenho.fillStyle = '#ffffff';
+
+// Linha
+areaDesenho.fillRect(
+    larguraCampo / 2 - larguraLinha / 2,
+    0,
+    larguraLinha,
+    500,
+);
+
+// Raquete 1
+areaDesenho.fillRect(0, 30, larguraLinha, alturaRaquete);
+// Raquete 2
+areaDesenho.fillRect(
+    larguraCampo - larguraLinha,
+    300,
+    larguraLinha,
+    alturaRaquete,
+);
+
+// Bola "quadrada"
+areaDesenho.fillRect(30, 30, larguraBola, larguraBola);
