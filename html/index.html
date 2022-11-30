@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../styled/style.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 </head>
 
@@ -13,14 +14,23 @@
     <div class="conteiner">
         <div class="conteiner-menu" id="conteinermenu">
             <div class="menu">
-                bem vindo ao jogo
+                <h1> bem vindo ao jogo </h1>
+                para o jogador 1 utilize:
+                <br> Use a tecla w para mover para cima
+                <br> Use a tecla s para mover para baixo
+
                 <br>
+                <br> para o jogador 2 utilize:
+                <br> Use a tecla o para mover para cima
+                <br> Use a tecla l para mover para baixo
+
             </div>
-            <button class="botao" onclick="troca()">vamos jogar!</button>
+            <button class="botao" onclick="showGame()">vamos jogar!</button>
         </div>
         <div class="conteiner-game" id="conteinergame">
             <canvas id="folha" width="600" height="500"></canvas>
         </div>
+
     </div>
     <script type="text/javascript" src="../src/main.js"></script>
     <script type="text/javascript" src="../src/troca.js"></script>

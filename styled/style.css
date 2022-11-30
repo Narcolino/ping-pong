@@ -10,13 +10,19 @@
 }
 
 .conteiner-menu {
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: aquamarine;
+    text-align: center;
+}
+
+button {
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 100px;
 }
 
 .conteiner-game {
